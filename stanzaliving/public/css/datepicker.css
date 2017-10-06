@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+html,body, ul{margin:0; padding: 0; font-family: muli; }
+h1, h2, h3, h4, h5, h6, strong, span, nav, header, a, p, label, {margin:0; padding: 0;}
+li {list-style: none;}
+a{text-decoration: none;}
+*{box-sizing: border-box;}
+@font-face {
+    font-family: muli;
+    src: url(../font/muli-regular.ttf);
+}
+@font-face {
+    font-family: muli-b;
+    src: url(../font/muli-bold.ttf);
+}
+.container{max-width: 1150px; width: 100%; margin: 0 auto; padding:0 20px; }
+.main-section{width: 100%; float: left; }
+.main-section .login-duration{width: 100%; float: left;background: #1e2d56}
+.main-section .login-duration .input-calendar{width: 100%; float: left;padding: 150px 0;}
+.main-section .login-duration .input-calendar ul{display: block;}
+.main-section .login-duration .input-calendar ul li{width: 30%; float: left;margin-right: 3.3333%;}
+.main-section .login-duration .input-calendar ul li label{color:#fff;}
+.main-section .login-duration .input-calendar ul li:last-child{float: right;text-align: right;}
+.main-section .login-duration .input-calendar ul li input {color:#fff;border: 1px solid #c2c2c2;padding: 10px 15px;margin-left: 10px;background: transparent;}
+.main-section .login-duration .input-calendar ul li input[type="submit"]{background: #030e2a; color:#fff; padding: 10px 25px;border:none;cursor: pointer}
+.main-section .login-duration .input-calendar ul li input[type="submit"]:hover{transition: all 0.5s ease; padding: 9px 24px;}
